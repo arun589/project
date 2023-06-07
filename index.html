@@ -13,16 +13,16 @@
     <h1>EXPENSE TRACKER</h1>
     <form class="inline form" onsubmit="savetolocalStorage(event)">
         <label for="expense"> <b>Item</b></label>
-        <input type="text" placeholder="Item" id="expense" name="expense" required>
+        <input type="text" placeholder="Item" id="expense" name="expense" required><br>
         <label for="description"><b>COST</b></label>
-        <input type="number" placeholder="Price" id="description" name="description" required>
+        <input type="number" placeholder="Price" id="description" name="description" required><br>
         <label for="category"><b>Category</b></label>
         <select name="category"  id="category"  required>
             <option value="CLOTHES">CLOTHES</option>
             <option value="food">food</option>
             <option value="pharmacy">pharmacy</option>
             <option value="book">Book</option>
-        </select>
+        </select><br>
         <button class="btn btn-primary" id="addexp" type="submit">Add Expense</button>
     </form>
     <ul id="list">
